@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Delivery</title>
+   <link rel="stylesheet" href="delivery.css">
+   <link rel="stylesheet" href="/Main/navfooter.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" type="text/css" />
+   <script src="delivery.js"></script>
+   <link rel="icon" href="delivery.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <label class="logo">Savoury Sandwich</label>
+        <ul>
+            <li><a href="/Main/index.html">Home</a></li>
+            <li><a href="/Main/aboutus/aboutus.html">About Us</a></li>
+            <li><a href="/Main/support/support.html">Support</a></li>
+            <li><a href="/Main/contactus/contactus.html">Contact Us</a></li>
+            <li><a href="/Main/cart/cart.html">Order</a></li>
+        </ul>
+    </nav>
+    <div class="livechat">
+        <a href="/Main/livechat/livechat.html" target="_blank" class="live-chat-button">
+            <img src="/Main/chat.png" alt="Live Chat">
+        </a>
+    </div>
+
+    <div class="content">
+        <br>
+        <div class="title">
+            <h1>Delivery</h1>
+        </div>
+        <br>
+        <div class="cartbox">
+            <div class="cart">
+                <h2>Your Cart</h2>
+                <hr>
+                <ul id="delivery-cart-items"></ul>
+                <hr>
+                <p id="delfees" hidden>Delivery Fees: RM10</p>
+                <p>Gross Amount: RM<span id="delivery-total">0.00</span></p>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="container">
+            <div class="form">
+                <form method="post" action="payment.html">
+                    <div>
+                        <label for="nameBox">Name*</label>
+                        <input name="custName" id="nameBox" type="text" placeholder="First and Last Name" required />
+                    </div>
+                    <br>
+                    <div>
+                        <label for="phoneBox">Phone*</label>
+                        <input name="custPhone" id="phoneBox" type="tel" required
+                            placeholder="012-3456789"
+                            pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+                    </div>
+                    
+                    <div class="order-type">
+                        <label for="delivery">Delivery</label><input name="orderType" id="delivery" type="radio" />                
+                        <label for="pickup">Pickup</label><input name="orderType" id="pickup" type="radio" />
+                    </div>
+                    <br>
+                    <fieldset id="deliveryInfo">
+                        <legend>Delivery Options</legend>
+                        <textarea name="delAddress" id="addressBox" placeholder="Enter delivery address" disabled></textarea> 
+                        <div>
+                        <label for="delBox">Delivery Time</label>    
+                        <input name="delTime" id="delBox" type="time" disabled/>                        
+                        </div>
+                    </fieldset>
+                    <br>
+                    <fieldset id="pickupInfo">
+                        <legend>Pickup Options</legend>
+                        <label for="pickupBox">Pickup Time</label>
+                        <input name="pickupTime" id="pickupBox" type="time" disabled /><br>
+                        <label for="branch">Pick-up Location: </label>
+                        <select name="branch" id="pickupLocation" disabled>
+                        <option value="kl">Kuala Lumpur Branch</option>
+                        <option value="pj">Petaling Jaya Branch</option>
+                        <option value="aj">Ampang Branch</option>
+                        <option value="ch">Cheras Branch</option>
+                        </select>
+                    </fieldset>
+                    <br>
+                    <div>
+                        <input type="submit" class="submitbtn" value="Proceed to Checkout" />
+                    </div>
+                </form>
+            </div>
+            <div class="policy">
+                <h1>Delivery Policies</h1>
+                    <ul>
+                        <li style="list-style: circle;">We currently offer delivery within Klang Valley. To check if we deliver to your location, please enter your address at the checkout.</li>
+                        <li style="list-style: circle;">If the delivery time/ pick-up time is left empty, we will assume that you want us to prepare as soon as possible.</li>
+                        <li style="list-style: circle;">A flat delivery fee of RM10 will be applied to all orders. This fee helps cover the cost of our delivery service and ensures a reliable and timely delivery experience for our customers.</li>
+                        <li style="list-style: circle;">Upon successful placement of your order, you will receive an email or SMS confirmation with the details of your purchase, including the estimated delivery time.</li>
+                        <li style="list-style: circle;">For your convenience, we offer order tracking. You will receive a link to track your delivery in real-time once your order is out for delivery.</li>
+                        <li style="list-style: circle;">If you have any questions or concerns regarding your delivery, please contact our customer support at 03-61248888. We are here to assist you.</li>
+                    </ul>
+                    <br>
+                    <br>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/Main/Privacy/pp.html">Privacy Policy</a></li>
+                        <li><a href="/Main/membership/membership.html">Membership</a></li>
+                        <li><a href="/Main/Join Us/joinus.html">Join Us</a></li>
+                    </ul>       
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="/Main/faqs/faqs.html">FAQ</a></li>
+                        <li><a href="/Main/customer review/review.html">Reviews</a></li>
+                    </ul>       
+                </div>
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="/Main/cart/cart.html#sandwich">Sandwiches</a></li>
+                        <li><a href="/Main/cart/cart.html#beverages">Beverages</a></li>
+                        <li><a href="/Main/cart/cart.html#setmeal">Set Meals</a></li>
+                        <li><a href="/Main/cart/cart.html#family">Family Bundles</a></li>
+                    </ul>       
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social">
+                        <li><a href="https://fb.com"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a></li>
+                    </div>       
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

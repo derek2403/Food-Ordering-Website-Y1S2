@@ -1,0 +1,39 @@
+.content{
+    background-color: azure;
+    font-family: 'helvetica';
+    font-size:18px;
+    margin: 0%;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'helvetica';
+}
+h2{
+    margin-top: 5vh;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'helvetica';
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: #000000 1px solid;
+}
+
+th{
+    font-size: 25px;
+    border: #000000 1px solid;
+    font-family: 'helvetica';
+}
+
+td{
+    border: #000000 1px solid;
+    font-family: 'helvetica';
+    font-size: 25px;
+    line-height: normal;
+}

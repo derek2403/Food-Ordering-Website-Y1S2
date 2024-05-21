@@ -1,0 +1,321 @@
+/*join1=================================================================================*/
+.join1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background:url('/Main/Join Us/join1.jpg') center  ;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.join1 > h1{
+    color: #ffffff;
+    font-size: 120px;
+    font-family: helvetica;
+    font-weight: 5vh;
+    word-wrap: break-word;
+}
+
+/*join2=================================================================================*/
+.join2 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background:url('/Main/Join Us/join2.jpg') center  ;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.join2 > h3{
+    color: white;
+    font-size: 30px;
+    font-family: helvetica;
+    font-weight: 800;
+    word-wrap: break-word;
+    text-align: center;
+    max-width: 80%;
+}
+
+/*join3=================================================================================*/
+.join3 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: black  ;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.join3 > h1{
+    background: linear-gradient(to right, #3498db, #8e44ad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 60px;
+    font-family: helvetica;
+    font-weight: 1000;
+    word-wrap: break-word;
+    text-align: center;
+    max-width: 80%;
+}
+
+.join3 > h3{
+    color: white;
+    font-size: 40px;
+    font-family: helvetica;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+    word-wrap: break-word;
+}
+
+.join3 > p{
+    color: white;
+    font-size: 30px;
+    font-family: helvetica;    
+    font-weight: 400;
+    line-height: 5.9vh;
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 30px;
+    max-width: 80%;
+}
+
+/*join4=================================================================================*/
+.join4 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background:url('/Main/Join Us/join4.jpg') ;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.join4 > h1{
+    color: #000000;
+    max-width: 30%;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+.join4 > p{
+    margin-left: 25%;
+    color: black;
+    font-size: 35px;
+    font-family: helvetica;
+    font-weight: 400;
+    line-height: 5vh;
+    word-wrap: break-word;
+    max-width: 30%;
+}
+
+.join4 > p, .join4 > h1{
+    background-color: #dfdfdf5c;
+}
+
+/*join5=================================================================================*/
+.join5 {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    background: white  ;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.join5 > h1{
+    color: black;
+    font-size: 60px;
+    font-family: helvetica;
+    font-weight: 1000;
+    word-wrap: break-word;
+    text-align: center;
+    max-width: 80%;
+    line-height: 80px;
+}
+
+.join5 > h3{
+    color: black;
+    font-size: 35px;
+    font-family: helvetica;    
+    font-weight: 400;
+    line-height: 6vh;
+    margin-bottom: 2.8vh;
+    word-wrap: break-word;
+}
+
+.join5 p{
+    color: black;
+    font-size: 35px;
+    font-family: helvetica;
+    font-weight: 400;
+    line-height: 5vh;
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 3vh;
+    max-width: 80%;
+}
+
+/*join6=================================================================================*/
+.join6 {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background: #d9d9d9  ;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.join6 > h1{
+    color: black;
+    font-size: 60px;
+    font-family: helvetica;
+    font-weight: 600;
+    line-height: 3.5vh;
+    margin-bottom: 5vh;
+    word-wrap: break-word;
+    margin-left: 35%;
+}
+
+.join6 ol li{
+    color: black;
+    font-size: 30px;
+    font-family: helvetica;
+    font-weight: 300;
+    line-height: 5vh;
+    word-wrap: break-word;
+    margin-left: 35%;
+}
+
+.join6 a{
+    color: black;
+    font-size: 30px;
+    font-family: helvetica;
+    font-weight: 400;
+    line-height: 5vh;
+    word-wrap: break-word;
+    margin-left: 63%;
+    text-decoration: underline;
+}
+
+/*join7=================================================================================*/
+.join7 {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background: #818181  ;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.join7 > h1{
+    color: black;
+    font-size: 60px;
+    font-family: helvetica;
+    font-weight: 1000;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 11vh;
+    margin-top: 5%;
+    max-width: 95%;
+    margin-left: auto;
+}
+
+.join7 .form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+}
+
+.join7 .form-input,
+.join7 .form-dropdown {
+    width: 40%; 
+    height: 5vh; 
+    margin: 4vh 0; 
+    background: rgba(255, 255, 255, 0.648);
+    border: 0.3vh solid #ccc;
+    padding: 2vh; 
+    box-sizing: border-box;
+    font-size: 3.4vh;
+}
+
+.join7 .form-dropdown {
+    height: 5vh;
+    font-size: 3.4vh;
+    padding: 0.02vh;
+}
+
+.join7 .form-submit {
+    width: 80%; 
+    height: 9vh;
+    text-align: center;
+    color: black;
+    font-size: 3.7vh;
+    font-weight: 800;
+    line-height: 6vh;
+    word-wrap: break-word;
+}
+
+.join7 button{
+    height: 9vh;
+    font-size: 3.5vh;
+    padding: 2vh;
+}
+/*join8=================================================================================*/
+.join8 {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: #303030  ;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.join8 li{
+    color: grey;
+    font-size: 3.5vh;
+    font-family: helvetica;
+    font-weight: 90;
+    line-height: 5vh;
+    word-wrap: break-word;
+    max-width: 80%;
+    text-align: left;
+    margin-left: 15vh;
+}

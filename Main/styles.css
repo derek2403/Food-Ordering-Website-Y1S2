@@ -1,0 +1,477 @@
+/* Sandwich styles================================================================================*/
+.sandwich {
+    position: relative;
+    width: 100%;
+    height: 600px; 
+    background: url('/Main/sandwich.jpg') center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sandwich h1 {
+    color: white;
+    font-size: 60px; 
+    font-family: helvetica;
+    font-weight: 800;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 2.72vh 0; 
+}
+
+.sandwich p {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(90, 90, 90, 0.5);
+    font-size: 30px; 
+    font-family: helvetica;
+    font-weight: 400;
+    line-height: 5vh; 
+    word-wrap: break-word;
+}
+
+.buttons-container {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    margin: 13.79vh auto; 
+    padding: 0.7vh;
+    border: none;
+    border-radius: 2.58vh; 
+    font-size: 20px; 
+    cursor: pointer;
+    width: 64.47vh; 
+    height: 6.5vh; 
+    border-radius: 12.41vh; 
+    background-color: rgba(249, 234, 234, 0.8);
+    font-size: 4vh; 
+    font-family: helvetica;
+}
+
+.button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+/* Setmeal styles ====================================================================================*/
+.setmeal {
+    position: relative;
+    width: 100%;
+    height: 600px; 
+    background: url('/Main/setmeal.jpg') center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.setmeal h1 {
+    color: white;
+    font-size: 60px; 
+    font-family: helvetica;
+    font-weight: 800;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 2.72vh 0; 
+}
+
+.setmeal p {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(90, 90, 90, 0.5);
+    font-size: 30px; 
+    font-family: helvetica;
+    font-weight: 400;
+    line-height: 5vh; 
+    word-wrap: break-word;
+}
+
+
+/* Familybundle styles */
+.familybundle {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url('/Main/family.jpg') center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.familybundle h1 {
+    color: white;
+    font-size: 60px;
+    font-family: helvetica;
+    font-weight: 800;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 2.72vh 0; 
+}
+
+.familybundle p {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(90, 90, 90, 0.5);
+    font-size: 30px; 
+    font-family: helvetica;
+    font-weight: 400;
+    line-height: 5vh;
+    word-wrap: break-word;
+}
+
+
+/* Beverages styles */
+.beverage {
+    position: relative;
+    width: 100%;
+    height: 600px; 
+    background: url('/Main/beverage.jpg') center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.beverage h1 {
+    color: white;
+    font-size: 60px; 
+    font-family: helvetica;
+    font-weight: 800;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 2.72vh 0; 
+}
+
+.beverage p {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(90, 90, 90, 0.5);
+    font-size: 30px; 
+    font-family: helvetica;
+    font-weight: 400;
+    line-height: 5vh;
+    word-wrap: break-word;
+}
+
+
+/* Member styles */
+.member {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px; 
+    background-color: #747474;
+}
+
+.card {
+    max-width: 40%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.content {
+    flex: 1;
+    text-align: left;
+    max-width: 40%;
+    margin-right: 6.89vh; 
+    margin-left: 5%;
+}
+
+.content h1 {
+    color: white;
+    font-size: 60px; 
+    font-family: helvetica;
+    font-weight: 800;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.content p {
+    color: white;
+    font-size: 30px;
+    font-family: helvetica;
+    font-weight: 400;
+    line-height: 5vh; 
+    word-wrap: break-word;
+    margin: 2.72vh 0; 
+}
+
+.content a {
+    color: white;
+    font-size: 30px; 
+    font-family: helvetica;
+    text-decoration: underline;
+    font-weight: 400;
+    line-height: 5vh; 
+    word-wrap: break-word;
+    cursor: pointer;
+    margin-top: 2.72vh;
+}
+
+.content a:hover {
+    color: rgb(221, 179, 255);
+    background: none;
+}
+
+/* FAQs and Reviews styles */
+.container {
+    display: flex;
+}
+
+.faq-container,
+.reviews-container {
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.faq-container {
+    background-color: #497474;
+}
+
+.reviews-container {
+    background-color: #747449;
+}
+
+.faq h1,
+.reviews h1,
+.faq p,
+.reviews p,
+.faq a,
+.reviews a {
+    margin: 0;
+}
+
+.faq h1,
+.reviews h1 {
+    color: white;
+    font-size: 60px;
+    font-family: helvetica;
+    font-weight: 800;
+}
+
+.faq p,
+.reviews p {
+    max-width: 80%;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    font-family: helvetica;
+    font-weight: 400;
+    line-height: 5vh;
+}
+
+.faq a,
+.reviews a {
+    color: white;
+    font-size: 30px;
+    font-family: helvetica;
+    text-decoration: underline;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.faq a:hover,
+.reviews a:hover {
+    color: rgb(221, 179, 255);
+    background: none;
+}
+
+.faq,
+.reviews {
+    margin: 0;
+}
+
+
+/* Slideshow styles =================================================================================*/
+.ads {
+    width: 100%;
+    height: 50%; 
+    background: #a1c6c6;
+    position: relative;
+    clear: both;
+}
+
+.ads-container {
+    padding: 2.16vh; 
+}
+
+.wrapper {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.72vh 3.45vh -0.86vh hsla(0, 0%, 0%, 0.25);
+    border-radius: 1.72vh; 
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slidernav {
+    display: flex;
+    column-gap: 1.08vh; 
+    position: absolute;
+    bottom: 1.72vh; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slidernav a {
+    width: 2.16vh; 
+    height: 2.16vh; 
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slidernav .actives {
+    background-color: #747474;
+}
+
+.slidernav a:hover {
+    background-color: #747474e8;
+}
+
+div#marquee table {
+    animation: scroll 50s linear infinite;
+ }
+  
+div#marquee:hover table {
+    animation-play-state: paused; 
+}
+/* */
+.sponsors {
+    position: relative;
+    width: 100%;
+    height: 590px;
+    background-color: #68b1ffbb;
+}
+
+.sponsors h1 {
+    color: white;
+    font-size: 60px; 
+    font-family: helvetica;
+    font-weight: 800;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 2.72vh 0; 
+}
+
+div#marquee {
+    background-color: rgba(52, 171, 255, 0.25);   
+    height: 300px;
+    max-width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+ 
+
+
+table {
+    padding: 10px; 
+    max-height: 1300px;   
+    width: 100%;
+}
+ 
+table th {
+    font-size: 1.3em;
+    letter-spacing: 0.2em;
+}
+ 
+
+/* Marquee Styles */
+div#marquee {
+    position: relative;
+}
+  
+div#marquee table {
+    position: absolute;
+}
+
+
+ /* Animation Styles */
+div#marquee table {
+    animation: scroll 10s linear infinite;
+}
+  
+div#marquee:hover table {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+      top: 250px;
+    }
+    100% {
+      top: -1800px;
+    }
+}
+
+#sponsors td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#sponsors img {
+    max-width: 550px;
+    max-height: 250px;
+    object-fit: fill;
+}
+
+.sponsors p {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 30px; 
+    font-family: Helvetica;
+    font-weight: 400;
+    line-height: 5vh; 
+    word-wrap: break-word;
+}

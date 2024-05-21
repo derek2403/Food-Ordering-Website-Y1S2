@@ -1,0 +1,141 @@
+/*all divs==============================================================================*/
+.job1,.job2,.job3,.job4,.job5{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.job1 h1,
+.job2 h1,
+.job3 h1,
+.job4 h1,
+.job5 h1 {
+    color: #000000;
+    font-size: 60px;
+    font-family: Helvetica;
+    font-weight: 1000;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 15vh;
+}
+
+.job1 > p,
+.job2 > p,
+.job3 > p,
+.job4 > p,
+.job5 > p{
+    color: black;
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: 400;
+    line-height: 5vh;
+    word-wrap: break-word;
+    margin-top: 5vh;
+    max-width: 80%;
+    text-align: center;
+}
+
+/*backgrounds=======================================================================*/
+.job1{
+    background-color: #B2DFBF;
+}
+
+.job2{
+    background-color: #E0D2E9;
+}
+
+.job3{
+    background-color: #F5D0C1;
+}
+
+.job4{
+    background-color: #A9CCE3;
+}
+
+.job5{
+    background-color: #FDE3A7;
+}
+
+/*buttons style==========================================================================*/
+
+.job1 button,
+.job2 button,
+.job3 button,
+.job4 button,
+.job5 button{
+    display: inline-block;
+    border: none;
+    border-radius: 0.6vh;
+    font-size: 2vh;
+    cursor: pointer;
+    width :30vh;
+    max-width: 80%;
+    height: 7vh;
+    border-radius: 30vh;
+    font-size: 20px;
+    font-family: 'Helvetica';
+    text-align: center;
+    align-items: center;
+}
+
+.job1 button:hover {
+    background-color: #85D3B4; 
+    font-weight: bold;
+    padding: 2vh;
+}
+
+.job2 button:hover {
+    background-color: #B685C8; 
+    font-weight: bold;
+    padding: 2vh;
+}
+
+.job3 button:hover {
+    background-color: #E4AB97; 
+    font-weight: bold;
+    padding: 2vh;
+}
+
+.job4 button:hover {
+    background-color: #829DC8;
+    font-weight: bold;
+    padding: 2vh;
+}
+
+.job5 button:hover {
+    background-color: #F3DAA2; 
+    font-weight: bold;
+    padding: 2vh;
+}
+
+.job1 button {
+    background-color: #609E8E; 
+    color: white;
+}
+
+.job2 button {
+    background-color: #976C9D; 
+    color: white;
+}
+
+.job3 button {
+    background-color: #D99784; 
+    color: white;
+}
+
+.job4 button {
+    background-color: #6787B5; 
+    color: white;
+}
+
+.job5 button {
+    background-color: #ECCD8B; 
+    color: black; 
+}
+

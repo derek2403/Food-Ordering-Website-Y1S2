@@ -1,0 +1,23 @@
+.content{
+    max-width: 80%;
+    margin: auto;
+}
+
+.title{
+    font-size: 3.5vh;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.content p{
+    font-size: 25px;
+    margin-bottom: 0.5%;
+}
+
+.desc{
+    margin-left:4vh ;
+}
+
+.everything{
+    background-color: #d29deb63;
+}

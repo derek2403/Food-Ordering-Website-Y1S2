@@ -1,0 +1,29 @@
+.img{
+    margin: 0;
+}
+
+.content{
+    font-family: helvetica;
+    background-color: #f9dcc6;
+}
+
+h1{
+    max-width: 90%;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+li, p{
+    max-width: 90%;
+    margin: auto;
+    font-size: 25px;
+    line-height: 28px;
+}
+
+h2{
+    max-width: 90%;
+    margin: auto;
+    font-size: 30px;
+}

@@ -1,0 +1,48 @@
+.title{
+    height: 10vh;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 2%;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 30px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+table{
+    max-width: 95%;
+    margin: auto;
+    border: #000000 solid 2px;
+}
+
+th{
+    text-align: left;
+    font-size: 28px;
+}
+
+td{
+    font-size: 25px;
+}
+
+th, td{
+    padding: 2%;
+    border: #000000 solid 2px;
+}
+
+.content{
+    background-color: rgb(215, 232, 248);
+}
+
+.image{
+    margin-left: 22%;
+    border-radius: 4%;
+
+}

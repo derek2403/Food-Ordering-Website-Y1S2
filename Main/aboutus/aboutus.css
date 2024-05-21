@@ -1,0 +1,167 @@
+/*about us 1======================================================================================*/
+.aboutus{
+    position: relative;
+    width: 100%;
+    height: 360px; 
+    background: url('aboutus.jpg') center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1{
+    font-family: Helvetica;
+    max-width: 80%;
+    background-color: rgba(90, 90, 90);
+}
+
+.text1 h1{
+    font-size: 60px; 
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 2.72vh 0; 
+}
+
+.text1 p{
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 30px; 
+    font-family: Helvetica;
+    font-weight: 400;
+    line-height: 5vh; 
+    word-wrap: break-word;
+}
+
+/* horizontal 3===================================================================================*/
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F0EAD6;
+    height: 1050px;
+  }
+  
+  .ourstory,
+  .ourhistory,
+  .innovation {
+    flex: 1;
+    max-width: 28%;
+    margin: auto;
+    font-family: Helvetica;
+    margin-top: 5%;
+  }
+  
+  .text2,
+  .text3,
+  .text4 {
+    text-align: center;
+  }
+  
+    h1 {
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: Helvetica;
+  }
+  
+  .content p {
+    color: #666;
+    font-size: 25px;
+  }
+
+  .ourhistory{
+    background-color: #BEE1D2;
+    
+  }
+
+  .ourstory{
+    background-color: #D8E2DC;
+  }
+
+  .innovation{
+    background-color: #A7D3C6;
+  }
+
+  .text2, .text3, .text4{
+    max-width: 80%;
+    margin: auto;
+  }
+/*video===================================================================================*/
+.videocontainer{
+  background-color: #D6E4F0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.videocontainer h1{
+  font-size: 40px;
+}
+
+
+/*image============================================================================*/
+.locateus{
+    background-color: #B2D8B2;
+    color: #333333;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.locateus h1{
+  font-size: 40px;
+}
+
+.locateus p{
+    font-size: 25px;
+    font-family: Helvetica;
+    margin-bottom: 1%;
+}
+
+/*Our Awards=================================================================================*/
+dl {
+	margin-left: 2%;
+    font-family: Helvetica;
+    max-width: 80%;
+    
+}
+
+.awards{
+    background-color: #ffe0ff;
+}
+
+.awards h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+dt {
+	display: block;
+	margin: 0;
+	text-indent: 0;
+	font-weight: bold;
+	border-bottom: 1px solid rgba(168, 168, 168,1.00);
+  font-size: 30px;
+}
+
+dd {
+	display: block;
+	margin: 0 0 3% 3%;
+	text-indent: 0;
+  font-size: 25px;
+}

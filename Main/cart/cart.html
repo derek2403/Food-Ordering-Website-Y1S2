@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="pay.ico" type="image/x-icon">
+    <link href="starting.css" rel="stylesheet"/>
+    <link href="cart.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Main/navfooter.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" type="text/css" />
+    <title>Menu</title>
+    <script src="cart.js"></script>
+    <script src="delivery.js"></script>
+</head>
+<body>
+    <nav>
+        <label class="logo">Savoury Sandwich</label>
+        <ul class="main-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#sandwich">Sandwich</a></li>
+            <li><a href="#beverages">Beverages</a></li>
+            <li><a href="#setmeals">Set Meal</a></li>
+            <li><a href="#family">Family</a></li>
+        </ul>
+    </nav>
+
+    <div class="everything">
+        <br>
+        <br>
+        <div class="menuandcart">
+            <div class="shopping">
+                <h2>Shopping Cart</h2>
+                <hr>
+                <ul id="cart-items"></ul>
+                <hr>
+                <p>Total: RM<span id="total">0.00</span></p>
+                <br>
+                <button class="btn" onclick="navigateToDelivery()">Proceed to Delivery</button>
+            </div>
+            <div class="menu">
+                <h1 class="category-title" id="sandwich">Sandwich</h1>
+                <div class="container">
+                    <div class="food-box" id="product1" data-product-name="Seafood Sensation">
+                        <a href="/Main/ingredient/ingredient.html#seafood_sansation"><img src="a1.jpg" class="food-img"></a> 
+                        <h2 class="food-title">Seafood Sensation</h2>
+                        <h3 class="food-price">RM12.50</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Seafood Sensation', 12.50)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="food-box" id="product2" data-product-name="Tuna">
+                        <a href="/Main/ingredient/ingredient.html#tuna"><img src="a2.jpg" class="food-img"></a>
+                        <h2 class="food-title">Tuna</h2>
+                        <h3 class="food-price">RM10.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Tuna', 10.90)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="food-box" id="product3" data-product-name="Chicken Teriyaki">
+                        <a href="/Main/ingredient/ingredient.html#chicken_teriyaki"><img src="a3.jpg" class="food-img"></a>
+                        <h2 class="food-title">Chicken Teriyaki</h2>
+                        <h3 class="food-price">RM12.50</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Chicken Teriyaki', 12.50)">Add to Cart</button>
+                    </div>            
+            
+                    <div class="food-box" id="product4" data-product-name="Roasted Chicken">
+                        <a href="/Main/ingredient/ingredient.html#roasted_chicken"><img src="a4.jpg" class="food-img"></a>
+                        <h2 class="food-title">Roasted Chicken</h2>
+                        <h3 class="food-price">RM12.50</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Roasted Chicken', 12.50)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="food-box" id="product5" data-product-name="Italian B.M.T">
+                        <a href="/Main/ingredient/ingredient.html#italian_bmt"><img src="a5.jpg" class="food-img"></a>
+                        <h2 class="food-title">Italian B.M.T</h2>
+                        <h3 class="food-price">RM11.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Italian B.M.T', 11.90)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="food-box" id="product6" data-product-name="Veggie Delight">
+                        <a href="/Main/ingredient/ingredient.html#veggie_delight"><img src="a6.jpg" class="food-img"></a>
+                        <h2 class="food-title">Veggie Delight</h2>
+                        <h3 class="food-price">RM10.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Veggie Delight', 10.90)">Add to Cart</button>
+                    </div>
+            
+                    <div class="food-box" id="product7" data-product-name="Meatball Marinara">
+                        <a href="/Main/ingredient/ingredient.html#meatball_marinara"><img src="a7.jpg" class="food-img"></a>
+                        <h2 class="food-title">Meatball Marinara</h2>
+                        <h3 class="food-price">RM10.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Meatball Marinara', 10.90)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="food-box" id="product8" data-product-name="Bulgogi Chicken">
+                        <a href="/Main/ingredient/ingredient.html#bulgogi_chicken"><img src="a8.jpg" class="food-img"></a>
+                        <h2 class="food-title">Bulgogi Chicken</h2>
+                        <h3 class="food-price">RM12.50</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Bulgogi Chicken', 12.50)">Add to Cart</button>
+                    </div>
+
+        
+
+
+                </div><h1 class="category-title" id="beverages">Beverages</h1>
+                <div class="container">
+                    <div class="food-box" id="product1" data-product-name="Americano">
+                        <a href="/Main/ingredient/ingredient.html#americano"><img src="b1.jpg" class="food-img"></a>
+                        <h2 class="food-title">Americano</h2>
+                        <h3 class="food-price">RM4.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Americano', 4.90)">Add to Cart</button>
+                    </div>
+                    <div class="food-box" id="product2" data-product-name="Mocha">
+                        <a href="/Main/ingredient/ingredient.html#mocha"><img src="b2.jpg" class="food-img"></a>
+                        <h2 class="food-title">Mocha</h2>
+                        <h3 class="food-price">RM5.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mocha', 5.90)">Add to Cart</button>
+                    </div>
+                    <div class="food-box" id="product3" data-product-name="Macchiato">
+                        <a href="/Main/ingredient/ingredient.html#macchiato"><img src="b3.jpg" class="food-img"></a>
+                        <h2 class="food-title">Macchiato</h2>
+                        <h3 class="food-price">RM5.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Macchiato', 5.90)">Add to Cart</button>
+                    </div>
+                    <div class="food-box" id="product4" data-product-name="Irish Coffee">
+                        <a href="/Main/ingredient/ingredient.html#irish_coffee"><img src="b4.jpg" class="food-img"></a>
+                        <h2 class="food-title">Irish Coffee</h2>
+                        <h3 class="food-price">RM5.50</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Irish Coffee', 5.50)">Add to Cart</button>
+                    </div>
+                    <div class="food-box" id="product5" data-product-name="Café au Lait">
+                        <a href="/Main/ingredient/ingredient.html#cafe_au_lait"><img src="b5.jpg" class="food-img"></a>
+                        <h2 class="food-title">Café au Lait</h2>
+                        <h3 class="food-price">RM5.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Café au Lait', 5.90)">Add to Cart</button>
+                    </div>
+                    <div class="food-box" id="product6" data-product-name="Cortado">
+                        <a href="/Main/ingredient/ingredient.html#cortado"><img src="b6.jpg" class="food-img"></a>
+                        <h2 class="food-title">Cortado</h2>
+                        <h3 class="food-price">RM5.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Cortado', 5.90)">Add to Cart</button>
+                    </div>
+                    <div class="food-box" id="product7" data-product-name="Iced Coffee">
+                        <a href="/Main/ingredient/ingredient.html#iced_coffee"><img src="b7.jpg" class="food-img"></a>
+                        <h2 class="food-title">Iced Coffee</h2>
+                        <h3 class="food-price">RM5.50</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Iced Coffee', 5.50)">Add to Cart</button>
+                    </div>
+                    <div class="food-box" id="product8" data-product-name="Cold Brew">
+                        <a href="/Main/ingredient/ingredient.html#cold_brew"><img src="b8.jpg" class="food-img"></a>
+                        <h2 class="food-title">Cold Brew</h2>
+                        <h3 class="food-price">RM4.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Cold Brew', 4.90)">Add to Cart</button>
+                    </div>
+                </div>
+
+
+
+                <h1 class="category-title" id="setmeal">Set Meal</h1>
+                <div class="container">          
+                    <div class="food-box" id="product1" data-product-name="Seafood Sensation(set)">
+                        <a href="/Main/ingredient/ingredient.html#setmeal"><img src="s1.jpg" class="food-img"></a>
+                        <h2 class="food-title">Seafood Sensation</h2>
+                        <h3 class="food-price">RM14.50</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Seafood Sensation(set)', 14.50)">Add to Cart</button>
+                    </div>
+
+                    <div class="food-box" id="product3" data-product-name="Chicken Teriyaki(set)">
+                        <a href="/Main/ingredient/ingredient.html#setmeal"><img src="s3.jpg" class="food-img"></a>
+                        <h2 class="food-title">Chicken Teriyaki</h2>
+                        <h3 class="food-price">RM14.50</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Chicken Teriyaki(set)', 14.50)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="food-box" id="product4" data-product-name="Roasted Chicken(set)">
+                        <a href="/Main/ingredient/ingredient.html#setmeal"><img src="s4.jpg" class="food-img"></a>
+                        <h2 class="food-title">Roasted Chicken</h2>
+                        <h3 class="food-price">RM14.50</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Roasted Chicken(set)', 14.50)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="food-box" id="product5" data-product-name="Italian B.M.T(set)">
+                        <a href="/Main/ingredient/ingredient.html#setmeal"><img src="s5.jpg" class="food-img"></a>
+                        <h2 class="food-title">Italian B.M.T</h2>
+                        <h3 class="food-price">RM13.99</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Italian B.M.T(set)', 13.99)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="food-box" id="product6" data-product-name="Veggie Delight(set)">
+                        <a href="/Main/ingredient/ingredient.html#setmeal"><img src="s6.jpg" class="food-img"></a>
+                        <h2 class="food-title">Veggie Delight</h2>
+                        <h3 class="food-price">RM12.99</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Veggie Delight(set)', 12.99)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="food-box" id="product7" data-product-name="Meatball Marinara(set)">
+                        <a href="/Main/ingredient/ingredient.html#setmeal"><img src="s7.jpg" class="food-img"></a>
+                        <h2 class="food-title">Meatball Marinara</h2>
+                        <h3 class="food-price">RM12.99</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Meatball Marinara(set)', 12.99)">Add to Cart</button>
+                    </div>                    
+
+                    <div class="food-box" id="product8" data-product-name="Bulgogi Chicken(set)">
+                        <a href="/Main/ingredient/ingredient.html#setmeal"><img src="s8.jpg" class="food-img"></a>
+                        <h2 class="food-title">Bulgogi Chicken</h2>
+                        <h3 class="food-price">RM14.50</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Bulgogi Chicken(set)', 14.50)">Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <h1 class="category-title" id="family">Family Bundle</h1>
+                <div class="container">
+                    <div class="food-box" id="product1" data-product-name="Bundle 1">
+                        <a href="/Main/ingredient/ingredient.html#chickenBundle1"><img src="f1.jpg" class="food-img"></a>
+                        <h2 class="food-title">Chicken Bundle 1 (3 pax)</h2>
+                        <h3 class="food-price">RM25.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Chicken Bundle 1', 25.90)">Add to Cart</button>
+                    </div> 
+
+                    <div class="food-box" id="product2" data-product-name="Bundle 2">
+                        <a href="/Main/ingredient/ingredient.html#chickenBundle2"><img src="f2.jpg" class="food-img"></a>
+                        <h2 class="food-title">Chicken Bundle 2 (3 pax)</h2>
+                        <h3 class="food-price">RM25.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Chicken Bundle 2', 25.90)">Add to Cart</button>
+                    </div>
+
+                    <div class="food-box" id="product3" data-product-name="BBQ Chicken Strips">
+                        <a href="/Main/ingredient/ingredient.html#beefBundle"><img src="f3.jpg" class="food-img"></a>
+                        <h2 class="food-title">Beeeeef Bundle (3 pax)</h2>
+                        <h3 class="food-price">RM22.20</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Beeeeef Bundle', 22.20)">Add to Cart</button>
+                    </div>
+
+                    <div class="food-box" id="product4" data-product-name="Bundle 4">
+                        <a href="/Main/ingredient/ingredient.html#seafoodBundle"><img src="f4.jpg" class="food-img"></a>
+                        <h2 class="food-title">Seafood Bundle (4 pax)</h2>
+                        <h3 class="food-price">RM29.50</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Seafood Bundle', 29.50)">Add to Cart</button>
+                    </div>
+
+                    <div class="food-box" id="product5" data-product-name="Bundle 5">
+                        <a href="/Main/ingredient/ingredient.html#veggieBundle"><img src="f5.jpg" class="food-img"></a>
+                        <h2 class="food-title">Veggies Bundle (2 pax)</h2>
+                        <h3 class="food-price">RM18.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Veggies Bundle', 18.90)">Add to Cart</button>
+                    </div>
+
+                    <div class="food-box" id="product6" data-product-name="Bundle 6">
+                        <a href="/Main/ingredient/ingredient.html#mixedBundle1"><img src="f6.jpg" class="food-img"></a>
+                        <h2 class="food-title">Mixed Bundle 1 (3 pax)</h2>
+                        <p></p>
+                        <h3 class="food-price">RM26.20</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mixed Bundle 1', 26.20)">Add to Cart</button>
+                    </div>
+
+                    <div class="food-box" id="product7" data-product-name="Bundle 7">
+                        <a href="/Main/ingredient/ingredient.html#mixedBundle2"><img src="f7.jpg" class="food-img"></a>
+                        <h2 class="food-title">Mixed Bundle 2 (2 pax)</h2>
+                        <h3 class="food-price">RM18.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mixed Bundle 2', 18.90)">Add to Cart</button>
+                    </div>
+
+                    <div class="food-box" id="product8" data-product-name="Bundle 8">
+                        <a href="/Main/ingredient/ingredient.html#mixedBundle3"><img src="f8.jpg" class="food-img"></a>
+                        <h2 class="food-title">Mixed Bundle 3 (2 pax)</h2>
+                        <h3 class="food-price">RM18.90</h3>
+                        <button class="add-to-cart-btn" onclick="addToCart('Mixed Bundle 3', 18.90)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="livechat">
+            <a href="/Main/livechat/livechat.html" target="_blank" class="live-chat-button">
+                <img src="/Main/chat.png" alt="Live Chat">
+            </a>
+        </div>
+        <br>
+    
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/Main/Privacy/pp.html">Privacy Policy</a></li>
+                        <li><a href="/Main/membership/membership.html">Membership</a></li>
+                        <li><a href="/Main/Join Us/joinus.html">Join Us</a></li>
+                    </ul>       
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="/Main/faqs/faqs.html">FAQ</a></li>
+                        <li><a href="/Main/customer review/review.html">Reviews</a></li>
+                    </ul>       
+                </div>
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="/Main/cart/cart.html#sandwich">Sandwiches</a></li>
+                        <li><a href="/Main/cart/cart.html#beverages">Beverages</a></li>
+                        <li><a href="/Main/cart/cart.html#setmeal">Set Meals</a></li>
+                        <li><a href="/Main/cart/cart.html#family">Family Bundles</a></li>
+                    </ul>       
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social">
+                        <li><a href="https://fb.com"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a></li>
+                    </div>       
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

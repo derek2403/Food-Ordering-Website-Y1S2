@@ -1,0 +1,25 @@
+body {
+    font-family: helvetica;
+    background-color: #369bff36;
+    color: #ffffff92;
+}
+
+p{
+    font-size: 25px;
+    line-height: 3.6vh;
+}
+
+p, h1, .break{
+    max-width: 80%;
+    margin: auto;
+    color: #000000;
+}
+
+h1{
+    margin-bottom: 0.5%;
+    font-size: 40px;
+}
+
+p{
+    line-height: 27px;
+}

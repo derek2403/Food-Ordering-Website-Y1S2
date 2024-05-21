@@ -1,0 +1,130 @@
+/*img styles============================================================================*/
+.img{
+    padding: 0%;
+    margin: 0;
+}
+
+.title{
+    font-family: Helvetica;
+    font-weight: bold;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 35px;
+}
+
+/*button================================================================================*/
+.button {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto; 
+    margin-bottom: 3%;
+}
+
+.button1,
+.button2,
+.button3 {
+    width: 25%;
+    box-sizing: border-box;
+    width: 40vh;
+}
+
+.button2 {
+    max-width: 80%; 
+    margin: 0 2.5%; 
+}
+
+.button1 h2,
+.button2 h2,
+.button3 h2 {
+    background-color: #cccccc48;
+    color: #000000; 
+    text-align: center;
+    border-radius: 5%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 15vh;
+    margin: 0; 
+    font-family: Helvetica;
+    font-size: 30px;
+}
+
+.button1 h2 a,
+.button2 h2 a,
+.button3 h2 a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+/*box1================================================================================*/
+.box1{
+    max-width: 80%;
+    margin: auto;
+    background-color: #cccccc48;
+    height: 1200px;
+    overflow: hidden;
+    margin-bottom: 3%;
+    border-radius: 4%;
+
+}
+
+.box1 img{
+    margin-top: 8%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.box1 h1, .box1 p{
+    max-width: 95%;
+    margin: auto;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.box1 h1{
+    font-size: 60px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.box1 p{
+    font-size: 30px;
+}
+
+/*box2================================================================================*/
+.box2{
+    max-width: 80%;
+    margin: auto;
+    background-color: #cccccc48;
+    height: 1200px;
+    overflow: hidden;
+    margin-bottom: 3%;
+    border-radius: 4%;
+}
+
+.box2 img{
+    margin-top: 8%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.box2 h1, .box2 p{
+    max-width: 95%;
+    margin: auto;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.box2 h1{
+    font-size: 60px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.box2 p{
+    font-size: 30px;
+}

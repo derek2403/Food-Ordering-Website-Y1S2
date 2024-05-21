@@ -1,0 +1,107 @@
+.title{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    height: 40vh;
+    padding: 7vh;
+    background-color: #ffebcd;
+}
+.desc{
+    height: 40vh;
+}
+
+.desc{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b5ead7;
+}
+
+.desc h1{
+    font-size: 60px;
+}
+
+.desc p{
+    font-size: 35px;
+    max-width: 80%;
+    margin-top: 5vh;
+}
+
+.menu{
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    background: url(special.jpg);
+    height: 90vh;
+}
+
+.menu h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 2%;
+    background-color: #faebd7c8;  
+    max-width: 56%;
+    margin-left: 20%;
+}
+
+.menu h3{
+    max-width: 47%;
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 6vh;
+    background-color: #faebd7c8;
+}
+
+.menu p{
+    font-size: 4vh;
+    max-width: 47%;
+    margin-left: 10%;
+    background-color: #faebd7c8;
+}
+
+
+
+.note{
+    font-weight: bold;
+}
+
+.events{
+    height: 70vh;
+    padding: 7vh;
+    background-color: #f0a5d1;
+}
+
+.events h1{
+    text-align: center;
+    font-size: 7vh;
+}
+
+.events h2{
+    font-size: 5vh;
+}
+
+.events p{
+    font-size: 4vh;
+}
+
+.location{
+    height: 70vh;
+    padding: 7vh;
+    background-color: #a4c8e0;
+}
+
+.location h1{
+    font-size: 10vh;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.location p{
+    font-size: 5vh;
+    max-width: 80%;
+    margin: auto;
+}

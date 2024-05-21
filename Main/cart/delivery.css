@@ -1,0 +1,93 @@
+.content{
+    max-width: 80%;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.form {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.policy {
+    margin-left: 5%;
+    flex: 1;
+    max-width: 40%;
+}
+
+.policy li{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.policy h1{
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+fieldset {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.order-type {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.order-type label {
+    margin-right: 10px;
+}
+
+.order-type input[type="radio"] {
+    margin-top: 2px; 
+}
+
+.submitbtn{
+    margin-left: 50%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    font-size: 15px;
+}
+
+.submitbtn:hover{
+    padding-left: 3%;
+    font-weight: bold;
+}
+
+.title{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cartbox{
+    max-width: 50%;
+    background-color: #d2f1f7c7;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
